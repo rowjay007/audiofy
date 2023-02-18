@@ -27,7 +27,7 @@ model Song {
   updatedAt DateTime @updatedAt
   name String
   artist Artist @relation(fields: [artistId], references: [id])
-  artisId Int
+  artistId Int
 }
 model Artist {
 
